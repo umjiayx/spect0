@@ -1,6 +1,6 @@
 # $^{90}\mathrm{Y}$ SPECT Scatter Estimation and Voxel Dosimetry in Radioembolization using a Unified Deep Learning Framework
 
-This repository contains the official implementation of [$^{90}\mathrm{Y}$ SPECT Scatter Estimation and Voxel Dosimetry in Radioembolization using a Unified Deep Learning Framework](https://ejnmmiphys.springeropen.com/articles/10.1186/s40658-023-00598-9).
+This repository contains the official implementation of [Y90 SPECT Scatter Estimation and Voxel Dosimetry in Radioembolization using a Unified Deep Learning Framework](https://ejnmmiphys.springeropen.com/articles/10.1186/s40658-023-00598-9).
 
 ## Pipeline Overview
 
