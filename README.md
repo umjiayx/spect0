@@ -1,8 +1,16 @@
 # $^{90}\mathrm{Y}$ SPECT Scatter Estimation and Voxel Dosimetry in Radioembolization using a Unified Deep Learning Framework
 
-## Code
+This repository contains the official implementation of [$^{90}\mathrm{Y}$ SPECT Scatter Estimation and Voxel Dosimetry in Radioembolization using a Unified Deep Learning Framework](https://ejnmmiphys.springeropen.com/articles/10.1186/s40658-023-00598-9).
 
-The majority of the code is written in [Python](https://www.python.org). Neural networks are built and trained using the [PyTorch](https://pytorch.org/) automatic differentiation framework.
+## Pipeline Overview
+
+This study explores a deep-learning-based absorbed dose-rate estimation method for 90Y that mitigates the impact of poor SPECT image quality on dosimetry and the accuracy–efficiency trade-off of Monte Carlo (MC)-based scatter estimation and voxel dosimetry methods.
+
+![Overview of the proposed pipeline](assets/spect0.webp)
+
+## Code and Datasets
+
+The majority of the code is written in [Python](https://www.python.org). Neural networks are built and trained using the [PyTorch](https://pytorch.org/) automatic differentiation framework. The datasets generated and/or analyzed during the current study are available from the corresponding author on reasonable request.
 
 
 ### Stage I: CNN for SPECT Scatter Estimation
@@ -22,10 +30,6 @@ Paper: https://pubmed.ncbi.nlm.nih.gov/34882821/
 Code template: https://github.com/ZongyuLi-umich/DblurDoseNet
 
 Note: use the script run_train.sh and run_test.sh in the folder stageIII for training and testing.
-
-## Data
-
-The datasets generated during and/or analyzed during the current study are available from the corresponding author on reasonable request.
 
 
 ## Citation
